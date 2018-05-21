@@ -6,7 +6,7 @@ echo XXXXX                  Luokan asteukset 1.0              XXXXX
 echo XXXXX                      Lauri                         XXXXX
 echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 echo.
-set /p luokka=Missä luokassa olet?
+set /p luokka=Anna luokan numero:
 goto %luokka%
 
 
@@ -118,5 +118,5 @@ echo XXXXX                  Luokan asteukset 1.0              XXXXX
 echo XXXXX                      Lauri                         XXXXX
 echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 echo.
-echo Asetukset vaihdettu. Jos näytöt edelleen väärinpäin tai muita ongelmia kokeile uudelleen.
+echo Asetukset vaihdettu. Josmonitorit edelleen sekaisin tai muita ongelmia: kokeile uudelleen.
 pause
