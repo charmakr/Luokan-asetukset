@@ -29,6 +29,7 @@ exit
 
 
 :269
+:304
 goto 231Kuulokkeet
 exit
 
