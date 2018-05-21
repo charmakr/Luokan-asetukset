@@ -79,8 +79,8 @@ dc2.exe -extend
 dc64cmd.exe -monitor="\\.\DISPLAY3" -detach
 dc64cmd.exe -monitor="\\.\DISPLAY2" -detach
 dc64cmd.exe -monitor="\\.\DISPLAY1" -primary -width=1366 -height=768 -more 
-dc64cmd.exe -monitor="\\.\DISPLAY2" -secondary -width=1680 -height=1050 -lx=-3360 -ty=-141 -more
-dc64cmd.exe -monitor="\\.\DISPLAY3" -secondary -width=1680 -height=1050 -lx=-1680 -ty=-141 -apply 
+dc64cmd.exe -monitor="\\.\DISPLAY3" -secondary -width=1680 -height=1050 -lx=-1680 -ty=-141 -more
+dc64cmd.exe -monitor="\\.\DISPLAY2" -secondary -width=1680 -height=1050 -lx=-3360 -ty=-141 -apply
 nircmdc.exe setdefaultsounddevice "Kuulokkeet" 1
 nircmdc.exe mutesysvolume 0
 nircmdc.exe setsysvolume 65535
