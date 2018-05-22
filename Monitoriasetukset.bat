@@ -21,13 +21,13 @@ exit
 goto 132Kuulokkeet
 exit
 
-:252
+
 :254
 :256
 goto 321Kuulokkeet
 exit
 
-
+:252
 :269
 :304
 goto 231Kuulokkeet
