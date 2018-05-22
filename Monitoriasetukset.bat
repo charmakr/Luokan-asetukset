@@ -21,13 +21,13 @@ exit
 goto 132Kuulokkeet
 exit
 
-
+:252
 :254
 :256
 goto 321Kuulokkeet
 exit
 
-:252
+
 :269
 :304
 goto 231Kuulokkeet
@@ -82,9 +82,9 @@ exit
 
 :231Kuulokkeet
 dc2.exe -extend
-dc64cmd.exe -monitor="\\.\DISPLAY3" -detach
-timeout 2
 dc64cmd.exe -monitor="\\.\DISPLAY2" -detach
+timeout 2
+dc64cmd.exe -monitor="\\.\DISPLAY3" -detach
 timeout 2
 dc64cmd.exe -monitor="\\.\DISPLAY1" -primary -width=1366 -height=768 -more 
 dc64cmd.exe -monitor="\\.\DISPLAY3" -secondary -width=1680 -height=1050 -lx=-1680 -ty=-141 -more
